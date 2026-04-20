@@ -1,0 +1,21 @@
+{
+  "full_name": "Oluwasanmi Awelewa",
+  "name": "Sanmi",
+  "current_role": "Frontend Engineer",
+  "location": "Lagos, Nigeria",
+  "email": "supersanmi01@gmail.com",
+  "linkedin": "linkedin.com/in/sanmi01",
+  "specialties": [
+    "React & Modern Frontend Development",
+    "API Integration & State Management",
+    "AI Engineering & LLM Applications"
+  ],
+  "years_experience": 5,
+  "education": [
+    {
+      "degree": "Bachelor's degree, Computer Science",
+      "institution": "Obafemi Awolowo University",
+      "year": "2025"
+    }
+  ]
+}
