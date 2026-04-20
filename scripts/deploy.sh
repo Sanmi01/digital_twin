@@ -20,7 +20,7 @@ terraform init -input=false \
   -backend-config="key=${ENVIRONMENT}/terraform.tfstate" \
   -backend-config="region=${AWS_REGION}" \
   -backend-config="dynamodb_table=twin-terraform-locks" \
-  -backend-config="encrypt=true
+  -backend-config="encrypt=true"
 
 if ! terraform workspace list | grep -q "$ENVIRONMENT"; then
   terraform workspace new "$ENVIRONMENT"
